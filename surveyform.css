@@ -1,0 +1,136 @@
+
+
+
+h1, p{
+  text-align: center;
+}
+
+body{
+  text-align: left;
+  background-color: #6768a3;
+  color: white;
+  font-family: Roboto condensed, sans-serif;
+  font-size: 20px;
+}
+
+#personal-info{
+  width: 75%;
+  max-width: 720px;
+  margin: auto;
+  background-color: #282847;
+  padding: 40px;
+}
+
+#name-label,
+#email-label,
+#number-label,
+#current-role,
+#sigma-male-selector,
+#reffered,
+#comments{
+  display: block;
+}
+
+#on-the-weekends{
+  margin-bottom: 40px;
+}
+
+.personal-input{
+  height: 35px;
+  border-radius: 3px;
+  border: 0px solid white;
+  margin: 10px 0px 20px 0;
+}
+
+input, 
+select{
+  width: 100%;
+  display: block;
+}
+
+#dropdown,
+#dropdown-2{
+  width: 100.5%;
+}
+
+input[name="sigma-male"]{
+  width: 10px;
+  display: inline-block;
+}
+
+.improvement-checks{
+  width: 30%;
+  height: 200px;
+  padding: 0 160px 0 0;
+}
+
+.checkboxes{
+  width: 10px;
+}
+
+label{
+  display: flex;
+}
+
+.improvement-checks{
+  display: flex;
+  flex: 1fr;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100px;
+}
+
+#improvements,
+#website,
+#references,
+#originality,
+#other{
+  flex: 1fr 1fr;
+}
+
+#improvements{
+  white-space: nowrap;
+}
+
+label[for="website"],
+label[for="references"],
+label[for="originality"],
+label[for="other"],
+.checkboxes{
+  white-space: nowrap;
+  padding: 9px;
+  margin-left: -5px;
+}
+
+.checkboxes{
+}
+
+.comment-section{
+  margin: 30px 0 0 0;
+  display: block;
+}
+
+textarea{
+  display: block;
+  width: 97%;
+  min-height: 120px;
+  padding: 10px;
+  margin: 10px 0 30px 0;
+  border-radius: 3px;
+}
+
+textarea::placeholder{
+  font-size: 16px;
+
+}
+
+button{
+  width: 100%;
+  height: 50px;
+  background-color: #37af65;
+  color: white;
+  border: 0px solid white;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 500;
+}

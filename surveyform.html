@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/surveyform.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass+Mono&family=Roboto+Condensed:wght@300;400;700&family=Roboto+Mono:wght@200;300;400;500;700&display=swap" rel="stylesheet">
+    <title> Kyle's FCC Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title"> Kyle's FCC Survey Form</h1>
+    <p id="description">Thank you for taking the time to give me some info</p>
+    <fieldset id="personal-info">
+      <form id="survey-form">
+        <label id="name-label" for="name">Name <input id="name" class="personal-input" type="text" required placeholder="Enter your name"></label>
+        <label id="email-label" for="email">Email <input id="email" class="personal-input" type="email" required placeholder="Enter your email"></label>
+        <label id="number-label" for="number">Age <input id="number" class="personal-input" type="number" min="18" max="120" placeholder="Age"></label>
+        <label id="current-role">Which opiton best describes your current role? 
+          <select id="dropdown" class="personal-input">
+            <option value="">(select current role)</option>
+            <option value="1">Memer</option>
+            <option value="2">Naruto Runner</option>
+            <option value="3">Chad</option>
+            <option value="4">Sauce Stealer</option>
+            <option value="5">Epic Developer</option>
+          </select>
+        </label>
+        <label id="sigma-male-selector">Would you consider yourself a sigma-male?
+          <label for="yes"><input id="yes" type="radio" name="sigma-male" value="sigma-male" class="inline" /> Yes </label>
+          <label for="no"><input id="no" type="radio" name="sigma-male" value="sigma-male" class="inline" /> No </label>
+          <label for="on-the-weekends"><input id="on-the-weekends" type="radio" name="sigma-male" value="sigma-male" class="inline" /> On the Weekends </label>
+        </label>
+        <label id="reffered">What brought you to my survey form? 
+          <select id="dropdown-2" class="personal-input">
+            <option value="">(select where)</option>
+            <option value="1">Job Application</option>
+            <option value="2">LinkedIn</option>
+            <option value="3">Referral</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+        <div class="improvement-checks">
+          <label id="improvements">What can I improve on my portfolio?</label>
+          <label for="website"><input id="website" type="checkbox" name="website" value="checkboxes" class="checkboxes" />Your Website</label>
+          <label for="references"><input id="references" type="checkbox" name="references" value="checkboxes" class="checkboxes" />Your References</label>
+          <label for="originality"><input id="originality" type="checkbox" name="originality" value="checkboxes" class="checkboxes" />Originality</label>
+          <label for="other"><input id="other" type="checkbox" name="other" value="checkboxes" class="checkboxes" />Other</label>
+        </div>
+        <label id="comments" class="comment-section">Any Comments or Suggestions?</label>
+        <textarea placeholder="Enter your comment here..."></textarea>
+        <button id="submit" type="submit">Submit</button>
+      </form>
+    </fieldset>
+  </body>
+</html>
